@@ -1,0 +1,139 @@
+* {
+    margin: 0PX;
+    padding: 0PX;
+}
+
+body{
+    background-image: url(/assets/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#contenedor{
+    background-color: #fff;
+    width: 1100px;
+    height: 1000px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+hr{
+    margin-top: -230px;
+}
+
+.titulo{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+	font-family:'Castellar';
+	background-color: #b6beb3;
+	padding-bottom: 20px;
+	
+}
+
+/*Menú*/
+#img-nav{
+	width: 50px;
+	position: relative;
+	top: 20px;
+	left: 35px;
+}
+
+#naveg{
+	text-align: right;
+	background-color: transparent;
+	margin-bottom: 15px;
+	
+}
+
+nav {
+    background-color: #507934;
+    padding-top: 5px;
+    padding-bottom: 10px;
+	justify-content: left;
+
+}
+
+.boton{
+    color: #fff;
+	text-decoration:none;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+}
+
+.boton:hover{
+    background-color: #b3c7a9a2;
+    color: black;
+}
+
+/*Mapa*/
+#map-til{
+    font-style: oblique;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    margin-left: 45px;
+}
+
+iframe{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 500px;
+}
+
+/*Tabla*/
+#tab-til{
+    font-style: oblique;
+    padding: 15px;
+    margin: -12px;
+    margin-bottom: 5px;
+    background-color: #507934;
+}
+
+table{
+    position: relative;
+    left: 700px;
+    bottom: 455px;
+    background-color: #84b470;
+    margin-bottom: -1000px;
+    align-items: center;
+
+}
+
+
+input[type=submit]{
+    padding:15px 30px;
+	background-color:#2f581f;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+td{
+    padding: 10px;
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+/*Anuncio*/
+#anuncio{
+	margin-top: 600px;
+	margin-left: 50px;
+	background-color: transparent;
+}
+
+#anun-plant{
+	width: 400px;
+}
