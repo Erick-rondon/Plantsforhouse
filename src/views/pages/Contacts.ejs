@@ -27,24 +27,28 @@
 
         <article>
             <table>
-                <form method="post" action="mailto:erick.rondon5@gmail.com">
+                <form id="contactform" method="post" action="mailto:erick.rondon5@gmail.com">
                     <tr>
                         <td align="left" style="padding: -100px;">
                             <h3 id="tab-til">Envienos información sobre usted</h3>   
                             <h4>Nombre</h4>
-                            <input type="input" name="nom" required>
+                            <input id="name" type="input" name="nom" required>
                     <br>
                     <br>            
                             <h4>Correo electrónico</h4>                   
-                            <input type="input" name="correo" required>
+                            <input id="correo" type="input" name="correo" required>
                     <br>
                     <br> 
                             <h4>Número de teléfono</h4>
-                            <input type="input" name="tel" required>
+                            <input id="telefono" type="input" name="tel" required>
                     <br>
                     <br> 
-                            <h4>Dirección</h4>
-                            <textarea name="cuadro" id="cua" cols="30" rows="5" required></textarea> 
+                            <h4>Asunto</h4>
+                            <input id="subject" type="input" name="sub" required>
+                    <br>
+                    <br> 
+                            <h4>Mensaje</h4>
+                            <textarea name="cuadro" id="mensaje" cols="30" rows="5" required></textarea> 
                     <br>    
                     <br> 
                             <input type="submit" value="Enviar">
@@ -61,5 +65,6 @@
           </article>
     </section>
     <hr>
+    <script src="./js/contacto.js"></script>
 </body>
 </html>
